@@ -1,0 +1,41 @@
+# Environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw data (large; download it yourself, see README) and generated outputs
+data/raw/
+!data/raw/.gitkeep
+outputs/
+
+# Secrets (none are used, but never commit them)
+.env
+
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+
+# Environments and caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated outputs
+outputs/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
